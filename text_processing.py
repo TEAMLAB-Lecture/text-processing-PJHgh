@@ -60,5 +60,5 @@ def no_vowels(input_string):
     """
     no_vowel_string = ''
     for s in input_string:
-        if not s in ['a', 'e', 'i', 'o', 'u']: no_vowel_string += s
+        if not s.lower() in ['a', 'e', 'i', 'o', 'u']: no_vowel_string += s
     return no_vowel_string
